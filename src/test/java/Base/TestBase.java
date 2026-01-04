@@ -20,9 +20,8 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
 
-import com.r2k.utilities.ExcelReader;
+import utilities.ExcelReader;
 
 public class TestBase {
 
@@ -41,7 +40,6 @@ public class TestBase {
 
 	public WebDriverWait wait;
 	public String browser;
-
 
 	public void setUp(String browserName) throws IOException {
 
